@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: rgb(253, 217, 223);
+}
+
+select:focus,input:focus,textarea:focus{
+    border:2px solid rgb(215, 215, 215);
+    outline: rgb(249, 50, 203);
+}
