@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ShopContext } from "../Context/Shopcontext";
+import { ShopContext } from "../Context/ShopContext";
 import { Link } from "react-router-dom";
 
 function ProductId({ id, image, name, price }) {
